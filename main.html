@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="main.css">
+    <title>Verificador de idade</title>
+</head>
+
+<body>
+    <main class="main">
+        <div class="main-container">
+            <h1>Verificador de idade</h1>
+            <div class="sub-container">
+                <div class="p-input">
+                    <p>Ano de Nascimento:</p>
+                    <input id="input" type="number" placeholder="Insira o ano...">
+                </div>
+                <div class="checkbox-container">
+                    <span>Sexo:</span>
+                    <div class="label-checkbox">
+                        <label for="radio-M">Masculino</label>
+                        <input id="radio-M" type="radio" name="sexo" value="M" checked>
+                    </div>
+                    <div class="label-checkbox">
+                        <label for="radio-F">Feminino</label>
+                        <input id="radio-F" type="radio" name="sexo" value="F">
+                    </div>
+                </div>
+                <button id="btn">Verificar</button>
+                <h2 id="res">Preencha os dados a cima para ver o resultado!</h2>
+                <figure id="figure">
+
+                </figure>
+            </div>
+            <footer> <strong> © Lucas Regly | 2024 </strong>
+            </footer>
+        </div>
+    </main>
+    <script src="./main.js"></script>
+</body>
+
+</html>
